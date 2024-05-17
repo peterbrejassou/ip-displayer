@@ -1,0 +1,15 @@
+#ip-displayer {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    background: white;
+    color: black;
+    font-size: 12px;
+    line-height: 1.2;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 4px 8px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 100vw;
+    z-index: 9999999;
+}
