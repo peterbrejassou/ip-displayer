@@ -71,7 +71,6 @@ async function injectSiteIPAddress() {
     const ip = await getSiteIPAddress()
     if (ip) {
         const domain = window.location.hostname
-        console.log(domain)
         const excludedDomains = await getExcludedDomains()
 
         if (!(await isDomainExcluded(domain, excludedDomains))) {
